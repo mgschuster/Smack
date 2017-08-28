@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CreateAccountVC: UIViewController {
+class CreateAccountVC: UIViewController, UITextFieldDelegate {
 
     // Outlets
     @IBOutlet weak var usernameTxt: UITextField!
@@ -19,7 +19,15 @@ class CreateAccountVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        usernameTxt.delegate = self
+        emailTxt.delegate = self
+        passTxt.delegate = self
         
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
     
     @IBAction func pickAvatarPressed(_ sender: Any) {
