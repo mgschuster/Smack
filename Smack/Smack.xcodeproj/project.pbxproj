@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6A410D38C3AB735C89DA32C8 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1119F047EFC735103F4A669A /* Pods_Smack.framework */; };
+		8476D93C1F544D3D00839108 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476D93B1F544D3D00839108 /* GradientView.swift */; };
 		848735C11F5446A700A1C413 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848735C01F5446A700A1C413 /* ChatVC.swift */; };
 		848735C31F5446BC00A1C413 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848735C21F5446BC00A1C413 /* ChannelVC.swift */; };
 		848735C41F5449C700A1C413 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848735B11F543D9C00A1C413 /* SWRevealViewController.m */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		1119F047EFC735103F4A669A /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8476D93B1F544D3D00839108 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		848735B01F543D9B00A1C413 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		848735B11F543D9C00A1C413 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		848735B21F543D9D00A1C413 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		848735BE1F54467300A1C413 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8476D93B1F544D3D00839108 /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			files = (
 				848735C11F5446A700A1C413 /* ChatVC.swift in Sources */,
 				848735C31F5446BC00A1C413 /* ChannelVC.swift in Sources */,
+				8476D93C1F544D3D00839108 /* GradientView.swift in Sources */,
 				848A69071F54368C00973E8B /* AppDelegate.swift in Sources */,
 				848735C41F5449C700A1C413 /* SWRevealViewController.m in Sources */,
 			);
