@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6A410D38C3AB735C89DA32C8 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1119F047EFC735103F4A669A /* Pods_Smack.framework */; };
+		84536C2F1F54DAF100E17633 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84536C2E1F54DAF100E17633 /* UserDataService.swift */; };
 		8476D93C1F544D3D00839108 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476D93B1F544D3D00839108 /* GradientView.swift */; };
 		8476D93F1F5456CC00839108 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476D93E1F5456CC00839108 /* Constants.swift */; };
 		8476D9411F545ACB00839108 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476D9401F545ACB00839108 /* LoginVC.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		1119F047EFC735103F4A669A /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84536C2E1F54DAF100E17633 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		8476D93B1F544D3D00839108 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		8476D93E1F5456CC00839108 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8476D9401F545ACB00839108 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				8476D9451F5476B700839108 /* AuthService.swift */,
+				84536C2E1F54DAF100E17633 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				848735C11F5446A700A1C413 /* ChatVC.swift in Sources */,
 				8476D9481F5481C300839108 /* RoundedButton.swift in Sources */,
 				8476D93F1F5456CC00839108 /* Constants.swift in Sources */,
+				84536C2F1F54DAF100E17633 /* UserDataService.swift in Sources */,
 				8476D9431F545F1100839108 /* CreateAccountVC.swift in Sources */,
 				8476D9461F5476B700839108 /* AuthService.swift in Sources */,
 				8476D9411F545ACB00839108 /* LoginVC.swift in Sources */,
