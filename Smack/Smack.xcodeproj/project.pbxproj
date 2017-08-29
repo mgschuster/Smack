@@ -24,6 +24,7 @@
 		848A690C1F54368C00973E8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848A690A1F54368C00973E8B /* Main.storyboard */; };
 		848A690E1F54368C00973E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848A690D1F54368C00973E8B /* Assets.xcassets */; };
 		848A69111F54368C00973E8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848A690F1F54368C00973E8B /* LaunchScreen.storyboard */; };
+		84F287311F559C1600E0CA41 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F287301F559C1600E0CA41 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		848A690D1F54368C00973E8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848A69101F54368C00973E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848A69121F54368C00973E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F287301F559C1600E0CA41 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		B9E07BB414A7A6AF532AA719 /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 		F38FFE29BD6F552745D8CED9 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,6 +123,7 @@
 				8476D93B1F544D3D00839108 /* GradientView.swift */,
 				8476D9471F5481C200839108 /* RoundedButton.swift */,
 				84536C321F558F4200E17633 /* AvatarCell.swift */,
+				84F287301F559C1600E0CA41 /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				848735C11F5446A700A1C413 /* ChatVC.swift in Sources */,
 				84536C311F558D6F00E17633 /* AvatarPickerVC.swift in Sources */,
 				8476D9481F5481C300839108 /* RoundedButton.swift in Sources */,
+				84F287311F559C1600E0CA41 /* CircleImage.swift in Sources */,
 				8476D93F1F5456CC00839108 /* Constants.swift in Sources */,
 				84536C2F1F54DAF100E17633 /* UserDataService.swift in Sources */,
 				8476D9431F545F1100839108 /* CreateAccountVC.swift in Sources */,

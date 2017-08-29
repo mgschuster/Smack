@@ -121,7 +121,7 @@
                                 <rect key="frame" x="281" y="83" width="22" height="22"/>
                                 <state key="normal" image="addChannelButton"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ebe-7N-PDi">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ebe-7N-PDi" customClass="CircleImage" customModule="Smack" customModuleProvider="target">
                                 <rect key="frame" x="16" y="572" width="75" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="0Un-5c-tMk"/>
@@ -387,7 +387,7 @@
                                     <action selector="createAccntPressed:" destination="ax7-dJ-gFT" eventType="touchUpInside" id="weD-AV-OhV"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="KO2-Tf-1MM">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="KO2-Tf-1MM" customClass="CircleImage" customModule="Smack" customModuleProvider="target">
                                 <rect key="frame" x="137.5" y="299" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="eKJ-un-GhN"/>
@@ -410,7 +410,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="gUN-d5-Lnz">
-                                <rect key="frame" x="62" y="123" width="250" height="136"/>
+                                <rect key="frame" x="62.5" y="123" width="250" height="136"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ocj-fg-hTr">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="20"/>
@@ -465,6 +465,10 @@
                                     </view>
                                 </subviews>
                             </stackView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="MeJ-1u-Tdk">
+                                <rect key="frame" x="169" y="265" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -475,9 +479,11 @@
                             <constraint firstItem="HhG-9V-b9U" firstAttribute="top" secondItem="PBN-rA-DfL" secondAttribute="bottom" constant="4" id="HfN-E0-tHN"/>
                             <constraint firstItem="PBN-rA-DfL" firstAttribute="centerX" secondItem="ryi-AE-syJ" secondAttribute="centerX" id="Mvl-Ka-drL"/>
                             <constraint firstItem="5dP-XX-StP" firstAttribute="top" secondItem="ryi-AE-syJ" secondAttribute="topMargin" constant="8" id="Po9-TP-1w7"/>
+                            <constraint firstItem="MeJ-1u-Tdk" firstAttribute="centerY" secondItem="ryi-AE-syJ" secondAttribute="centerY" constant="-50" id="QZr-KM-XU4"/>
                             <constraint firstItem="P9j-Lo-YSA" firstAttribute="top" secondItem="ryi-AE-syJ" secondAttribute="topMargin" constant="40" id="Qdc-dx-P0d"/>
                             <constraint firstItem="gUN-d5-Lnz" firstAttribute="top" secondItem="P9j-Lo-YSA" secondAttribute="bottom" constant="40" id="Rl0-Bu-a5y"/>
                             <constraint firstItem="gUN-d5-Lnz" firstAttribute="centerX" secondItem="ryi-AE-syJ" secondAttribute="centerX" id="Vch-8J-3mS"/>
+                            <constraint firstItem="MeJ-1u-Tdk" firstAttribute="centerX" secondItem="ryi-AE-syJ" secondAttribute="centerX" id="Yea-v3-aHJ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="5dP-XX-StP" secondAttribute="trailing" id="asX-0m-5tJ"/>
                             <constraint firstItem="PBN-rA-DfL" firstAttribute="width" secondItem="KO2-Tf-1MM" secondAttribute="width" id="bKI-Wc-HBx"/>
                             <constraint firstItem="HhG-9V-b9U" firstAttribute="centerX" secondItem="ryi-AE-syJ" secondAttribute="centerX" id="jlB-sk-wz7"/>
@@ -488,6 +494,7 @@
                     <connections>
                         <outlet property="emailTxt" destination="E1g-MQ-gXT" id="Vh2-XF-Wud"/>
                         <outlet property="passTxt" destination="kMc-Y9-6h1" id="m6i-I1-uPR"/>
+                        <outlet property="spinner" destination="MeJ-1u-Tdk" id="uYz-eI-Lke"/>
                         <outlet property="userImg" destination="KO2-Tf-1MM" id="K8e-5N-GsA"/>
                         <outlet property="usernameTxt" destination="ocj-fg-hTr" id="CFF-Ah-nAf"/>
                         <segue destination="2qr-e4-kAh" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="OJD-Ol-K4j"/>
