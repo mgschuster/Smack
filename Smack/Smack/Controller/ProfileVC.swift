@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProfileVC: UIViewController {
+class ProfileVC: UIViewController, UITextFieldDelegate {
 
     // Outlets
     @IBOutlet weak var userName: UILabel!
@@ -19,6 +19,13 @@ class ProfileVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
+        userName.delegate = self
+        userEmail.delegate = self
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
 
     @IBAction func closeModalPressed(_ sender: Any) {
