@@ -25,7 +25,7 @@ class MessageService {
                     for item in json {
                         let name = item["name"].stringValue
                         let channelDescription = item["description"].stringValue
-                        let id = item["id"].stringValue
+                        let id = item["_id"].stringValue
                         let channel = Channel(channelTitle: name, channelDescription: channelDescription, id: id)
                         self.channels.append(channel)
                     }
