@@ -21,6 +21,7 @@ let URL_GET_MESSAGES = "\(BASE_URL)message/byChannel/"
 
 // Colors
 let smackPurplePlaceholder = #colorLiteral(red: 0.2588235294, green: 0.3294117647, blue: 0.7254901961, alpha: 0.5)
+let SHADOW_GRAY: CGFloat = 120.0 / 255.0
 
 // Notification Constants
 let NOTIF_USER_DATA_DID_CHANGE = Notification.Name("notifUserDataChanged")

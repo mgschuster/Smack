@@ -33,7 +33,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AhK-FI-ljb">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AhK-FI-ljb" customClass="FancyView" customModule="Smack" customModuleProvider="target">
                     <rect key="frame" x="20" y="153.5" width="335" height="360"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y1s-dQ-VC0">
